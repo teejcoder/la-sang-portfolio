@@ -1,5 +1,11 @@
 .App {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 60vh;
+  border-bottom: 1px solid black;
+  background-image: url("https://images.pexels.com/photos/3616764/pexels-photo-3616764.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
 }
 
 .App-logo {
@@ -35,4 +41,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.logo {
+  border-radius: 75px;
 }
