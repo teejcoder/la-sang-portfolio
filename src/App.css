@@ -47,3 +47,60 @@
 .logo {
   border-radius: 75px;
 }
+
+.btn-primary {
+  height: 60px;
+  width: 150px;
+  border-radius: 50px;
+  border: 2px solid black;
+  background-color: lightgrey;
+}
+
+
+
+
+
+/* GALLERY */
+
+.gallery {
+  height: 80vh;
+}
+
+.gallery-pic {
+  height: 300px;
+  width: 300px;
+}
+
+
+/* FOOTER */
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-top: 1px solid black;
+}
+
+.about-me {
+  height: 200px;
+  width: 60%;
+  padding: 50px;
+  display: flex;
+  justify-content: flex-start;
+}
+.copyright {
+  height: 200px;
+  width: 40%;
+  padding: 50px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+}
+.copyright-div {
+  gap: 10px;
+  display: flex;
+  align-items: flex-end;  
+  justify-content: flex-end;
+  flex-direction: column;
+}
