@@ -3,73 +3,65 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 60vh;
-  border-bottom: 1px solid black;
-  background-image: url("https://images.pexels.com/photos/3616764/pexels-photo-3616764.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  height: 80vh;
+  background-image: url('/public/assets/hero-image.png');
+  background-size: cover;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-
-.logo {
-  border-radius: 75px;
-}
-
+/* BUTTON */
 .btn-primary {
   height: 60px;
   width: 150px;
   border-radius: 50px;
-  border: 2px solid black;
+  border: 2px solid white;
   background-color: lightgrey;
 }
 
 
 
+/* HEADER */
+a {
+  margin-top: 10px;
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: tomato;
+  font-size: large;
+  
+}
+
+.logo {
+  border-radius: 75px;
+}
 
 
 /* GALLERY */
-
 .gallery {
   height: 80vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
 }
 
-.gallery-pic {
-  height: 300px;
-  width: 300px;
+.gallery-div {
+  margin: 10px;
 }
+
+.confidence-man {
+  width: 380px;
+  height: 380px
+}
+
+a > img {
+  width: 400px;
+}
+a > .lime-cordial {
+  height: 700px;
+}
+
 
 
 /* FOOTER */
@@ -77,8 +69,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
-  border-top: 1px solid black;
+  
+  border-top: 1px solid white;
 }
 
 .about-me {
