@@ -12,8 +12,9 @@ export default function Footer() {
             </div>
             <div className='copyright'>
                 <div className='copyright-div'>
+                    <a href="/">Home</a>
                     <a href="https://www.instagram.com/la.sangiorgio.live/" target='_'>Instagram</a>
-                    Copyright © 2023. All rights reserved.
+                    Copyright © 2023. All rights reserved
                 </div>
             </div>
         </section>
