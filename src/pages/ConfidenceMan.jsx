@@ -8,12 +8,12 @@ export default function ConfidenceMan() {
         <Header />
 
             <section className='photograph-section'>
-
-                <a href="/"><h1 className='band-name'>Confidence Man</h1></a>
+              <a href="/"><h1 className='band-name'>Confidence Man</h1></a>
+              <div className='photographs-div'>
                 <img src="/assets/confidence-man/confidence-man-one.png" alt="" className='photographs'/>
                 <img src="/assets/confidence-man/confidence-man-cover.png" alt="" className='photographs'/>
                 <img src="/assets/confidence-man/confidence-man-two.png" alt="" className='photographs'/>
-
+              </div>
             </section>
             
         <Footer/>

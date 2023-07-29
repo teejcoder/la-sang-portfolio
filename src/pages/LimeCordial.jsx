@@ -9,14 +9,13 @@ export default function LimeCordial() {
       <section className='photograph-section'>
 
         <a href='/'><h1 className='band-name'>Lime Cordial</h1></a>
-
-        <img src="/assets/lime-cordial/lime-cordial-one.png" alt="" className='photographs'/>
-        <img src="/assets/lime-cordial/lime-cordial-cover.png" alt="" className='photographs'/>
-        <img src="/assets/lime-cordial/lime-cordial-two.png" alt="" className='photographs'/>
-
+        <div className='photographs-div'>
+          <img src="/assets/lime-cordial/lime-cordial-one.png" alt="Lime Cordial Band" className='photographs'/>
+          <img src="/assets/lime-cordial/lime-cordial-cover.png" alt="Lime Cordial Band" className='photographs'/>
+          <img src="/assets/lime-cordial/lime-cordial-two.png" alt="Lime Cordial Band" className='photographs'/>
+        </div>
       </section>
     <Footer/>
     </>
-
   )
 }

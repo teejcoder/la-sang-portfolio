@@ -9,11 +9,11 @@ export default function ShagRock() {
       <section className='photograph-section'>
 
         <a href='/'><h1 className='band-name'>Shag Rock</h1></a>
-
-        <img src="/assets/shag-rock/shag-rock-one.png" alt="" className='photographs'/>
-        <img src="/assets/shag-rock/shag-rock-cover.png" alt="" className='photographs'/>
-        <img src="/assets/shag-rock/shag-rock-two.png" alt="" className='photographs'/>
-
+        <div className='photographs-div'>
+          <img src="/assets/shag-rock/shag-rock-one.png" alt="" className='photographs'/>
+          <img src="/assets/shag-rock/shag-rock-cover.png" alt="" className='photographs'/>
+          <img src="/assets/shag-rock/shag-rock-two.png" alt="" className='photographs'/>
+        </div>
       </section>
       <Footer/>
     </>
