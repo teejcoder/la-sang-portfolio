@@ -9,9 +9,10 @@ export default function Hallie() {
       <section className='photograph-section'>
       <a href='/'><h1 className='band-name'>Hallie</h1></a>
       <div className='photographs-div'>
-        <img src="/assets/hallie/hallie-one.png" alt="" className='photographs'/>
-        <img src="/assets/hallie/hallie-cover.png" alt="" className='photographs'/>
-        <img src="/assets/hallie/hallie-two.png" alt="" className='photographs'/>
+        <img src="/assets/hallie/hallie-one.png" alt="Hallie Band" className='photographs'/>
+        <img src="/assets/hallie/hallie-two.png" alt="Hallie Band" className='photographs'/>
+        <img src="/assets/hallie/hallie-three.png" alt="Hallie Band" className='photographs'/>
+        <img src="/assets/hallie/hallie-four.png" alt="Hallie Band" className='photographs'/>
       </div>
       </section>
     <Footer/>

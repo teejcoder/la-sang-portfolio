@@ -10,9 +10,10 @@ export default function ConfidenceMan() {
             <section className='photograph-section'>
               <a href="/"><h1 className='band-name'>Confidence Man</h1></a>
               <div className='photographs-div'>
-                <img src="/assets/confidence-man/confidence-man-one.png" alt="" className='photographs'/>
-                <img src="/assets/confidence-man/confidence-man-cover.png" alt="" className='photographs'/>
-                <img src="/assets/confidence-man/confidence-man-two.png" alt="" className='photographs'/>
+                <img src="/assets/confidence-man/confidence-man-one.png" alt="Confidence Man Band" className='photographs'/>
+                <img src="/assets/confidence-man/confidence-man-two.png" alt="Confidence Man Band" className='photographs'/>
+                <img src="/assets/confidence-man/confidence-man-three.png" alt="Confidence Man Band" className='photographs'/>
+                <img src="/assets/confidence-man/confidence-man-four.png" alt="Confidence Man Band" className='photographs'/>
               </div>
             </section>
             
