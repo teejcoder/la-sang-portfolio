@@ -29,8 +29,5 @@ If you'd like to explore the code or contribute to the portfolio, follow these s
 4. Start the development server (`npm start` or `yarn start`).
 5. Open your browser and go to [http://localhost:3000](http://localhost:3000).
 
-## Contact LA Sangiorgio Live
-
-If you have any inquiries or would like to get in touch, you can reach LA Sangiorgio Live at [lasangiorgiolive@example.com](mailto:lasangiorgiolive@example.com).
 
 Explore the world of live music through captivating photography!
